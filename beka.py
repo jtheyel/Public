@@ -10,7 +10,6 @@ def ShouldIStay(Neighborcolors, p):
     else:
         print "I'm happy"
 
-
 Neighborcolors = [ "R", "R", "G", "R", "B", "R", "G", "B", "B", "G", "R", "G", "G"]
 p = input("Enter a number between 0 and 100 for the percent: ")
 ShouldIStay(Neighborcolors, p)
