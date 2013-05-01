@@ -9,7 +9,11 @@ def ShouldIStay(Neighborcolors, p):
     lenColor = len(Neighborcolors)
     percG = float(numG)/lenColor*100
     percR = float(numR)/lenColor*100
-
+    if percR < p or percG < p:
+        print "Get out of here"
+    else:
+        print "I'm happy"
+        
     # "G" = 0
     # if list() = "G" :
     #     "G" = "G" + 1
