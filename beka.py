@@ -1,8 +1,4 @@
 
-Neighborcolors = [ "R", "R", "G", "R", "B", "R", "G", "B", "B", "G", "R", "G", "G"]
-
-p = input("Enter a number between 0 and 100 for the percent: ")
-
 def ShouldIStay(Neighborcolors, p):
     numG = Neighborcolors.count("G")
     numR = Neighborcolors.count("R")
@@ -13,18 +9,8 @@ def ShouldIStay(Neighborcolors, p):
         print "Get out of here"
     else:
         print "I'm happy"
-        
-    # "G" = 0
-    # if list() = "G" :
-    #     "G" = "G" + 1
-    #     return list.count("G")
-    # "R" = 0
-    # if list() = "R":
-    #     "R" = "R" + 1
-    #     return list.count("R")
-    # if "G" // len(Neighborcolors) < p or "R" >= 3 :
-    #     print "Get out of here"
-    # else:
-    #     print "I am happy"
 
+
+Neighborcolors = [ "R", "R", "G", "R", "B", "R", "G", "B", "B", "G", "R", "G", "G"]
+p = input("Enter a number between 0 and 100 for the percent: ")
 ShouldIStay(Neighborcolors, p)
