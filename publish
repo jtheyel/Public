@@ -1,0 +1,9 @@
+# Copy Files
+cp ~/.emacs Templates/
+cp ~/SCAV/pageBuddies ./Scav
+
+
+# Run commit
+git add -A
+git commit
+git push

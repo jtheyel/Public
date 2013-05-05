@@ -225,8 +225,8 @@
     (insert  "------------------------------------------------------------------------\n")
     (goto-char (line-end-position))
     (insert "\n------------------------------------------------------------------------\n")
-    (defvar end (line-end-position))
-    (comment-or-uncomment-region beg end))
+    (defvar end (line-end-position)))
+    ;; (comment-or-uncomment-region beg end))
 
 
 

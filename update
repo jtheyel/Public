@@ -1,4 +1,0 @@
-cp ~/.emacs Templates/
-git add -A
-git commit
-git push
